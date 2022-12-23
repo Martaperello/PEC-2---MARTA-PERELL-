@@ -1,0 +1,409 @@
+
+body {
+    font-family: sans-serif;
+    background-color: cornsilk;
+    padding: 10px;
+    justify-content:center;
+    line-height: 30px
+  }
+
+header {
+display: flex;
+height: 140px;
+background-color:black
+}
+
+.logo {
+  display: flex;
+  font-family: 'Lobster', cursive;
+}
+
+.titulo {
+  color: white;
+  font-size: 40px;
+  padding-top: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+.mad_portada img {
+ width: 100%;
+ max-width: 100%;
+} 
+
+.mad_portada h1 {
+  padding: 30px;
+  text-align: center;
+}
+
+.mad_explicacion h2 {
+text-align: center;
+padding-top: 40px;
+}
+
+.mad_explicacion p {
+  padding:10px;
+  margin: 20px;
+}
+
+.mad_circulo img {
+  clip-path: circle(50% at 50% 50%);
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding: 20px;
+}
+
+.delimitador {
+padding-top: 40px;
+width:600px;
+margin:auto;
+}
+
+
+input {
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 6px;
+  color:black;
+  padding: 5px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; 
+  height: 0;
+  overflow: hidden;
+  max-width:900px;
+  }
+  
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+  .right  {
+    text-align: center;
+    padding: 30px;
+  }
+  .right form .btn{
+    margin-top: 10px;
+  }
+
+  button{
+    height: 40px;
+    width: 150px;
+    outline: none;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 2em;
+    border-color: red;
+    color: black;
+    background-image: -webkit-linear-gradient(left, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-image: linear-gradient(to right, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-position: 0 0;
+    background-size: 100%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  } 
+
+  .presentacion h1 {
+    color: red;
+    font-size: 35px;
+    padding-top: 100px;
+  }
+  
+  .presentacion h3 {
+   padding-bottom: 70px;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .presentacion h2 {
+    text-align: center;
+    font-size: 30px; 
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 50px;
+   
+  }
+  
+  .presentacion img {
+    float: left;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .corazon svg {
+    float: left;
+    padding: 50px;
+  }
+  
+  .svg-animation {
+    width: 227px;
+    height: 227px;
+    padding-bottom: 40px;
+    margin: auto;
+    top: 0; bottom: 0;
+    right: 0; left: 0;
+  }
+  
+  .svg-animation img {
+    top: 3px; left: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 211px;
+    height: 212px;
+    z-index: 3;
+    opacity: 1;
+    animation: photo-ani 4s forwards;
+  }
+  
+  .svg-animation-line {
+    z-index: 2;
+  }
+  
+  .line {
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation: line-ani 5.5s forwards;
+  }
+  
+  .circle {
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation:line-ani 3s forwards;
+  }
+  
+ 
+  @keyframes line-ani {
+    to {
+      stroke-dashoffset: 0;
+    } 
+  }
+  @keyframes photo-ani {
+    0% {
+      opacity: 0; 
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+.sitios img {
+ float:left;
+ max-width: 100%;
+ align-content:center;
+ padding: 10px; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.titulo_sitios {
+  background-color:red;
+  padding: 10px;
+}
+
+.sitios h2 {
+  clear: both;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.sitios p {
+  font-size: 15px; 
+  justify-content: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.ultimo_sitio p {
+  padding-bottom: 130px;
+  margin-bottom: 60px;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.sitios a {
+  text-decoration: none;
+  color: black;
+}
+
+.boton button {
+  margin-left: 150px;
+  }
+
+.museo_del_prado {
+  margin:20px;
+}
+
+.museo_del_prado img {
+  float: right;
+  max-width: 100%;
+  width: 400px;
+  padding-bottom: 30px;
+  padding: 10px;
+}
+
+.museo_del_prado p {
+  padding: 30px;
+  margin:20px;
+  font-size:20px;
+  justify-content: center;
+}
+
+.puerta_velazquez {
+  margin: 20px;
+}
+
+.puerta_velazquez img {
+  float: left;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.puerta_velazquez p{
+  margin: 10px;
+  font-size:20px; 
+  clear: both;
+  padding: 30px;
+  line-height: 30px;
+}
+
+.otros_museos h2 {
+  text-align: center;
+  padding: 20px;
+  clear: both;
+}
+
+img.izquierda {
+  float: left;
+  width: 200px;
+  max-width: 100%;
+  padding: 5px;
+}
+
+img.derecha {
+  float: right;
+  width: 200px;
+  max-width: 100%;
+  padding: 5px;
+}
+
+.parrafo_museo {
+  padding-bottom:10px;
+  margin: 40px;
+}
+
+.parrafo_museo h2 {
+  clear: both;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.parrafo_museo p {
+  font-size: 20px;
+}
+
+li {
+  padding: 10px;
+}
+
+  footer {
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    color: beige;
+    text-align: center;
+    height: 200px;
+    }
+
+  .main-content{
+    display: flex;
+    padding-top:20px;
+  }
+
+  .main-content .box{
+    flex-basis: 30%;
+  }
+
+   .main-content a {
+    display: inline-block;
+    position: relative;
+    color:white ;
+    text-decoration: none;
+    }
+
+    a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .8s;
+    }
+
+    a:hover:after {
+    width: 100%;
+    background: white;
+    }
+
+   a:hover {
+    color: red;
+  }
+
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+a.button {
+  border-radius: 5px;
+  padding: 10px 7px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  margin: 5px;
+}
