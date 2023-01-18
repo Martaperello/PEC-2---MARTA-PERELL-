@@ -1,11 +1,9 @@
-
 body {
-    font-family: sans-serif;
-    background-color: cornsilk;
+    font-family: 'Montserrat', sans-serif;
     padding: 10px;
     justify-content:center;
     line-height: 30px
-  }
+}
 
 header {
 display: flex;
@@ -15,113 +13,129 @@ background-color:black
 
 .logo {
   display: flex;
-  font-family: 'Lobster', cursive;
 }
 
 .titulo {
   color: white;
   font-size: 40px;
   padding-top: 40px;
-  font-family: 'Lobster', cursive;
 }
 
-.mad_portada img {
- width: 100%;
- max-width: 100%;
-} 
-
-.mad_portada h1 {
-  padding: 30px;
-  text-align: center;
-}
-
-.mad_explicacion h2 {
+.mad_explicacion  {
 text-align: center;
-padding-top: 40px;
+padding-top: 20px;
+font-size: 30px;
 }
 
-.mad_explicacion p {
+
+.mad_circulo p {
   padding:10px;
   margin: 20px;
 }
 
 .mad_circulo img {
-  clip-path: circle(50% at 50% 50%);
-  width: 100%;
-  height: 200px;
-  width: 200px;
   float: left;
   padding: 20px;
+  width: 300px;
+  height: 279px;
+  border-radius: 50%;
 }
 
-.delimitador {
-padding-top: 40px;
-width:600px;
-margin:auto;
-}
-
-
-input {
-  background: transparent;
-  border: 2px solid black;
-  border-radius: 6px;
-  color:black;
-  padding: 5px 20px;
+.parrafo1 h2 {
+  color: red;
   text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; 
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
-  text-transform: uppercase;
-
+  font-size: 30px;
+  padding-top: 50px;
 }
 
-.video-responsive {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px; 
-  height: 0;
-  overflow: hidden;
-  max-width:900px;
+
+  .contact_form{	
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color:#f4fafb;
+  }
+    
+  input {
+    background-color: #fbfbfb; 
+    width: 300px; 
+    height: 50px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: black; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
   }
   
-.video-responsive iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  textarea{
+    background-color: #fbfbfb; 
+    width: 300px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: black; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
   }
-
-  .right  {
-    text-align: center;
-    padding: 30px;
+  
+  label {
+    display: block; 
+    float: center; 	
   }
-  .right form .btn{
-    margin-top: 10px;
-  }
-
-  button{
-    height: 40px;
-    width: 150px;
-    outline: none;
-    font-size: 1.0625rem;
-    font-weight: 500;
+  
+  button {
+    height: 50px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 200px;	
+    margin-bottom: 20px; 
+    margin-top: 10px; 	
+    text-transform: uppercase;
+    background-color: rgb(243, 70, 74);
+    border-style: solid; 
+    border-radius: 10px;	   
     cursor: pointer;
-    transition: .3s;
-    border-radius: 2em;
-    border-color: red;
-    color: black;
-    background-image: -webkit-linear-gradient(left, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
-    background-image: linear-gradient(to right, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
     background-position: 0 0;
     background-size: 100%;
-    animation-duration: 3s;
-    animation-name: slidein;
-  } 
+ 
+  }
+   
+  span{
+    color: red;
+  }
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+  }
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  p {
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
 
   .presentacion h1 {
     color: red;
@@ -140,8 +154,7 @@ input {
     font-size: 30px; 
     padding: 10px;
     margin: 10px;
-    padding-bottom: 50px;
-   
+    padding-bottom: 50px;  
   }
   
   .presentacion img {
@@ -265,14 +278,14 @@ h1 {
   color: black;
 }
 
-.boton button {
-  margin-left: 150px;
-  }
-
 .museo_del_prado {
   margin:20px;
 }
 
+.sabermas input {
+  width:150px;
+  font-size: 18px;
+}
 .museo_del_prado img {
   float: right;
   max-width: 100%;
@@ -345,6 +358,11 @@ li {
   padding: 10px;
 }
 
+ul a {
+  text-decoration: none;
+  color: #0e0e0e;
+}
+
   footer {
     bottom: 0px;
     width: 100%;
@@ -361,6 +379,8 @@ li {
 
   .main-content .box{
     flex-basis: 30%;
+    width: 49px;
+    height: 49px;
   }
 
    .main-content a {
@@ -368,6 +388,7 @@ li {
     position: relative;
     color:white ;
     text-decoration: none;
+    font-size: 20px;
     }
 
     a:after {
@@ -397,13 +418,7 @@ li {
     flex-wrap: wrap;
     flex-direction: column;
   }
+
 }
 
-a.button {
-  border-radius: 5px;
-  padding: 10px 7px;
-  text-decoration: none;
-  color: #fff;
-  background-color: #333;
-  margin: 5px;
-}
+
