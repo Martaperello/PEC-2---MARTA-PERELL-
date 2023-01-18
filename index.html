@@ -4,65 +4,88 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="¿Quieres conocer los mejores planes de Madrid? Todas las claves están aquí.">
         <title> MADRID </title>
         <script async src="1.js" type="module"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
         </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html">
         <svg height="40mm" width="40mm">
             <circle cx="20mm" cy="20mm" r="15mm" style="fill:red;" />
-            <text x="75" y="80" font-size="30" text-anchor="middle"  text-decoration="underline" fill="white">Mad</text>
+            <text x="75" y="80" font-size="30" text-anchor="middle"  text-decoration="underline" fill="white"><a href="index.html" aria-label="Enlace a la portada">Madrid</a></text>
         </svg>
-        </a>
-        <h2 class="titulo">MADRID</h2>
+        <h1 class="titulo">MADRID</h1>
     </div>
     </header>
-   
-    <div class="mad_portada">
-        <img src="img/madrid-48-horas..jpg" loading="lazy" alt="Madrid-portada">
-        <h1><b>¿Quieres viajar a Madrid? Te traemos una guía para que no te pierdas ni un rinconcito de la capital... ¡Muy atent@s!</b></h1>
-    </div>
 
+    <div class="parrafo1">
+      <h2>MADRID, UNA CIUDAD QUE NO DESCANSA NI LOS DOMINGOS</h2>
+      </div>
 
-<div class="delimitador">
-<div class="video-responsive">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sGQtFwsmU-M" loading="lazy" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
+    <h3 class="mad_explicacion"><b> ¿Por qué visitar Madrid?</b></h3>
 
-<div class="mad_explicacion">
-<h2><b> ¿Por qué visitar Madrid?</b></h2>
-<div class="mad_circulo">
-<p><img src="img/Ciudad-madrid1.jpg" loading="lazy" alt="Madrid">Madrid es la capital de España, así como la ciudad española que más visitantes atrae. Con más de 10 millones de visitantes en 2019, Madrid se sitúa entre una de las ciudades más populares de Europa. No importa si vais a pasar una larga temporada o si solo podéis ver Madrid en dos días, el ambiente y la autenticidad de la capital os atrapará para siempre.</p> 
+  <div class="mad_circulo">
+<p><img srcset="img/Ciudad-madrid-150.jpg, img/Ciudad-madrid-250.jpg 1.5x, 
+  img/Ciudad-madrid-300.jpg 2x"
+   src="img/Ciudad-madrid2.jpg"  
+   alt=" Madrid"> Madrid es la capital de España, así como la ciudad española que más visitantes atrae. Con más de 10 millones de visitantes en 2019, Madrid se sitúa entre una de las ciudades más populares de Europa. No importa si vais a pasar una larga temporada o si solo podéis ver Madrid en dos días, el ambiente y la autenticidad de la capital os atrapará para siempre.</p> 
 <p>La razón que hace que los visitantes de Madrid aumenten cada año es la perfecta combinación de oferta cultural, monumental y de ocio. Paseando por Madrid podréis sentir la pura esencia española, presente en sus edificios cargados de elegancia, en la vida que rebosa cada una de sus plazas y en una gastronomía que enamora. ¿Todavía no has probado las tapas?  </p>
 <p>Madrid rebosa arte en cada rincón. Los museos de la capital albergan auténticas joyas firmadas por los pintores y escultores más influyentes de la historia del arte. El Museo del Prado, el Reina Sofía y el Thyssen conforman un triángulo perfecto de museos donde dar rienda suelta a los sentidos y embriagarse del mejor arte español e internacional.</p>
 </div>
-</div>
 
-<div class="right box">
-    <h2>Contacto</h2>
-    <div class="content">
-      <form action="#">
-        <div class="email">
-          <div class="text">Email *</div>
-          <input type="email" name= "campo" id="idcampo">
-        </div>
-        <div class="msg">
-          <div class="text">Mensaje *</div>
-          <textarea rows="2" cols="25" required></textarea>
-        </div>
-        <div class="btn">
-          <button id ="cambio" name="button" onclick="CambiaColor()">Enviar Mensaje</button>
-        </div>
-      </form>
-    </div>
-  </div>
+
+
+
+      <div class="contact_form">
+        <div class="formulario">			
+          <h4>Formulario de contacto</h4>
+            <h5>Escríbenos y nos pondremos en contacto contigo</h5>
+              <form action="submeter-formulario.php" method="post">		
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                  
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="colocar_telefono">Teléfono
+                      </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>		
+                  
+                    <p>
+                      <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>		
+                  
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                                         <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                     </p>	  								
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>					
+                
+              </form>
+        </div>	
+      </div>
   
 <footer>
     <div class="main-content">
@@ -83,15 +106,15 @@
         <a href="enlaces.html" class="menu"> Enlaces </a>
       </div>
       <div class="logo">
-        <a href="index.html">
-    <svg height="40mm" width="40mm">
-        <circle cx="15mm" cy="15mm" r="10mm" style="fill:red ;" />
-        <text x="55" y="60" font-size="20" text-anchor="middle"  text-decoration="underline" fill="white">Mad</text>
-    </svg>
-    </a>
-    </div>
-    </div>
+        <svg height="40mm" width="40mm">
+          <circle cx="20mm" cy="20mm" r="15mm" style="fill:red;" />
+          <text x="75" y="80" font-size="30" text-anchor="middle"  text-decoration="underline" fill="white">Madrid</text>
+        </svg>
+  </div>
+  </div>
   </footer>
 </body>
 </html>
+
+
 
